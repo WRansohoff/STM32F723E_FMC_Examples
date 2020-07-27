@@ -124,9 +124,9 @@ int main( void ) {
 
   // Test external RAM reads and writes.
   // Note: Uninitialized RAM can hold pseudorandom values.
-  uint32_t* psram  = ( uint32_t* )0x60000000;
-  uint16_t* psramh = ( uint16_t* )0x60000000;
-  uint8_t*  psramb = ( uint8_t*  )0x60000000;
+  //uint32_t* psram  = ( uint32_t* )0x60000000;
+  //uint16_t* psramh = ( uint16_t* )0x60000000;
+  //uint8_t*  psramb = ( uint8_t*  )0x60000000;
 
   // Initialize the memory controller for the connected TFT display.
   // It is connected to the 'NE2' signal, so use bank 1, section 2.
